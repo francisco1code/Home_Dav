@@ -4,7 +4,10 @@ const routes = new Router();
 
 
 routes.get('/', (req, res) => {
-    return res.json({ ok: false})
+    return res.json({ 
+        ok: true,
+        nome: "edson"
+    })
 });
 
 export default routes;
