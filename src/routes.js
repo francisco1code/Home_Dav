@@ -6,7 +6,8 @@ const routes = new Router();
 routes.get('/', (req, res) => {
     return res.json({ 
         ok: true,
-        nome: "edson"
+        nome: "edson",
+        nome2: "xuxu"
     })
 });
 
