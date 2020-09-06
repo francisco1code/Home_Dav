@@ -10,8 +10,6 @@ class SessionController{
             user = await User.create( {email});
         }
 
-        //let user = await User.create( {email})
-
         res.json(user);
 
     }
